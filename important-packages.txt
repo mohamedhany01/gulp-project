@@ -1,0 +1,32 @@
+[dev]
+    [css]
+        gulp-concat
+            collect CSS files into one file
+        gulp-autoprefixer
+            add needed css prefixes
+        sass gulp-sass
+            sass preproccessor
+        gulp-sourcemaps
+            generate source maps
+    [html]
+        gulp-pug
+            compile pug files to html
+    [js]
+        gulp-terser
+            compressed es6+ code
+    [development-server]
+        browser-sync | gulp-connect| static-server | gulp-webserver | gulp-live-server | gulp-serve
+            development sever
+    [[live-reload] | gulp-connect] | browser-sync
+        gulp-livereload
+    [utilities]
+        del
+            delete file and folders
+        gulp-notify
+            notification plugin for gulp
+        gulp-zip
+            ZIP compress files
+        vinyl-ftp | ftp-deploy
+            deploy files to by ftp
+
+npm i -D @babel/core @babel/preset-env autoprefixer browser-sync del dotenv gulp gulp-babel gulp-concat gulp-imagemin@7.1.0 gulp-notify gulp-postcss gulp-sass gulp-sourcemaps gulp-terser gulp-zip postcss sass vinyl-ftp

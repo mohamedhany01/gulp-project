@@ -1,0 +1,35 @@
+{
+  "name": "gulp-setup",
+  "main": "gulpfile.js",
+  "private": "true",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "start": "gulp start",
+    "compress": "gulp compress"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "dotenv": "^14.2.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-zip": "^5.1.0",
+    "postcss": "^8.4.5",
+    "sass": "^1.49.0",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
